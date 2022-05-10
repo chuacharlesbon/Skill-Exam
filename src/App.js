@@ -1,13 +1,15 @@
 
 import './App.css';
-import {Fragment} from 'react'
+import BannerBottom from './components/banner-bottom'
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
-  return (
-    
 
-    <Fragment>
-    </Fragment>
+  return (
+   
+    <BannerBottom/>
+    
   );
 }
 
