@@ -47,12 +47,12 @@ function sendEvent(e){
 
 	<Container className="text-center mx-auto p-0 m-0 d-md-none d-block banner-bottom">
 	<Row className="justify-content-center text-center  mx-auto">
-	<Col xs={12} className="bg-green text-center mx-auto demo-button">
+	<Col xs={12} className="bg-green text-center mx-auto demo-button p-2">
 	<h3 className="text-light banner-text text-center">SCHEDULE A DEMO</h3>
     <h5 className="text-light banner-text text-center">Learn More About FloQast</h5>
     </Col>
 
-    <Col xs={12} className="bg-light mt-1">
+    <Col xs={12} className="bg-light mt-1 py-2">
     <h5 className="text-secondary banner-text px-2">Learn How FloQast Can</h5>
     <h5 className="text-green"> Improve Your Month-End</h5>
     </Col>
@@ -80,12 +80,16 @@ function sendEvent(e){
 	
 {/*This section will be displayed for Tablet and Larger Screen Devices*/}
 	
-    <Row className="banner justify-content-center text-center mt-5 d-none d-md-flex banner-bottom">
+    <Row className="banner justify-content-center text-center mt-5 d-none d-md-flex banner-bottom mx-auto">
 
-    <Col xs={12} md={10} lg={8} xl={3} className="demo-button bg-green mx-0 mb-3 d-flex flex-column align-items-center justify-content-center">
+    
+    <Col xs={12} md={10} lg={10} xl={3} className=" bg-light mx-0 mb-3 d-flex flex-column justify-content-center p-0">
+    <div className="demo-button bg-green m-0 p-3">
     <h3 className="text-light banner-text">SCHEDULE A DEMO</h3>
     <h5 className="text-light banner-text">Learn More About FloQast</h5>
+    </div>
     </Col>
+    
 
     <Col xs={12} md={10} lg={10} xl={6} className="bg-light main-banner text-center mx-0 mb-lg-3 py-lg-3 py-3 mb-3">
     <div className="d-none d-lg-block">

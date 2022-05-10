@@ -84,6 +84,8 @@ input[type="text"]:active{
 }
 .demo-button {
   transition: 0.7s;
+  /*-webkit-clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);
+        clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);*/
 }
 .demo-button:hover {
   background-color: #ace600 !important;
@@ -108,6 +110,16 @@ input[type="text"]:active{
   width: 100%;
 }
 }
+
+@media screen and (min-width: 1440px) /*Mobile (+/-) 6inch Setting section*/
+{
+.demo-button {
+  transition: 0.7s;
+  -webkit-clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);
+        clip-path: polygon(0 0, 0 100%, 95% 100%, 100% 50%, 95% 0);
+}
+}
+
 
 @keyframes fadeLeft {
   from {
