@@ -58,20 +58,21 @@ function sendEvent(e){
     </Col>
 
 {/*Form Section*/}
-    <Form onSubmit={e => sendEvent(e)}>
+	<Container className="bg-light">
+    <Form onSubmit={e => sendEvent(e)} className="p-2">
     <Col xs={12} className="bg-light pb-3">
-	<Form.Group controlId="firstName">
+	<Form.Group controlId="firstName" className="my-1">
 	<Form.Control type="text" placeholder="First Name&lowast;" required value={firstName} onChange={e => setFirstName(e.target.value)}/>
 	</Form.Group>
 	
-	<Form.Group controlId="email">
+	<Form.Group controlId="email"  className="my-1">
 	<Form.Control type="text" placeholder="Email&lowast;" required value={email} onChange={e => setEmail(e.target.value)}/>
 	</Form.Group>
 
 	<Button className="banner-btn"  type="submit">SCHEDULE NOW</Button>
     </Col>
     </Form>
-
+    </Container>
 
 	</Row>
 	</Container>
