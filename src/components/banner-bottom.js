@@ -9,7 +9,7 @@ const [firstName, setFirstName] = useState('')
 
 	
 	
-    <Row className="banner justify-content-center text-center">
+    <Row className="banner justify-content-center text-center mt-5">
 
     
 
