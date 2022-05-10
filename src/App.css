@@ -1,10 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans&family=Poppins&display=swap');
+
+
 * {
   margin:  0;
   padding: 0;
+  box-sizing:  border-box;
+  font-family: 'Open Sans', sans-serif;;
 }
 
 body {
   background-image: url('../public/background-image.jpg');
   background-attachment: fixed;
   background-size: cover;
+}
+
+.banner-text {
+  font-weight: bold;
+
+}
+
+.main-banner {
+  border-radius: 0.5rem;
+}
+
+.text-green {
+  color: #ace600;
+}
+
+.bg-green {
+  background-color: #aaff80;
+}
+
+input[type="text"]{
+  color:  white;
+  background-color: #2874A6;
+  border: 0px;
+}
+
+input[type="text"]:active{
+  color: black;
+  
+}
+
+#firstName::placeholder  {
+    color:  white;
+}
+
+.banner-btn {
+  background-color: #ace600 !important;
+  border:  1px solid #82E0AA !important;
+  width: 100% !important;
 }
