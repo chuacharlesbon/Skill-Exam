@@ -54,7 +54,7 @@ function sendEvent(e){
 
     <Col xs={12} className="bg-light mt-1 py-2">
     <h5 className="text-secondary banner-text px-2">Learn How FloQast Can</h5>
-    <h5 className="text-green"> Improve Your Month-End</h5>
+    <h5 className="text-green">Improve Your Month-End</h5>
     </Col>
 
 {/*Form Section*/}
