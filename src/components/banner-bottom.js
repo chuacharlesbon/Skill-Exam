@@ -13,6 +13,8 @@ function sendEvent(e){
 	e.preventDefault()
 
 	/*
+	test Comment
+	
 	This is how I apply the fetch method using my server
 
 	fetch('https://localhost:4000/path/path2', {
