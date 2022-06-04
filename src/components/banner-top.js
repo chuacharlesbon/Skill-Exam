@@ -18,7 +18,7 @@ export default function BannerTop(){
 	</Row>
 	</Container>
 
-{/*This section will be displayed for Tablet and Larger Screen Devices*/}
+{/*This section will be displayed for Tablet and Larger Screen Devices. Test Comment*/}
 
 	<Row className="d-none d-md-flex banner-top">
 
